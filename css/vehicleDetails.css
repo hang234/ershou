@@ -1,0 +1,104 @@
+.content>img{
+	width:100%;
+	height:auto;overfloat:hidden;
+}
+.info{
+	font-size:15px;
+}
+.info1{
+	margin-left:15px;
+}
+.info>h5{
+	margin-left:15px;
+}
+.info>p{
+	background: #959595;
+}
+.info>p>span{
+	color: white;
+}
+.price{
+	color:blue;
+	font-size:20px;
+	margin-left:20px;
+	margin-bottom: 10px;
+}
+.info>.bac{
+	color:bule;
+	margin-left:10px;
+	margin-right: 20px;
+	float: right;
+	background: #cbcbcb;
+	font-size:20px;
+}
+.basicInfo{
+	margin-top:10px;
+	width: 100%;
+	position:relative;
+    
+	float: left;
+}
+.basicInfo .top{
+	background: #d5d6d8;
+}
+.top>h4{
+	margin-left:10px;
+	
+	line-height: 35px;
+}
+.info_left{
+	margin-left:15px;
+	float: left;
+}
+.info_right{
+	float: right;
+	margin-right: 15px;
+}
+.description{
+	width: 100%;
+	position:relative;
+	float: left;
+}
+.description .top{
+	background: #d5d6d8;
+}
+.description p{
+	margin:0 10px;
+}
+.other{
+	float: left;
+	width: 100%;
+	background: #c1c2c4;
+	position:relative;
+	height: 30px;overfloat:hidden;
+}
+.other .first{
+	margin-left: 25px;
+	text-align: center;
+	line-height: 30px;
+	width:45%;
+	float: left;
+	border-bottom: 5px solid #898989;
+}
+.other .second{
+	width:45%;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	
+}
+.car{
+	margin-top:10px;
+	width:100%;
+	float: left;
+}
+.car_left{
+	margin-left:10px;
+	width: 55%;
+	float: left;
+}
+.car_left>img{
+	width:90%;
+	padding-right:10px;
+}
+

@@ -1,0 +1,142 @@
+ul{
+	list-style-type: none;
+}
+#container{
+        width:100%;
+        height:250px;
+        position:relative;
+        overflow:hidden;
+    }
+    .item{
+        width: 100%;
+        height: auto;
+        position:relative;
+    }
+     
+    #tabs{
+        position:absolute;
+        left:38%;
+		bottom:20px;
+		
+    }
+    .tab{
+        float:left;
+        margin-right:10px;
+        width:6px;
+        height:6px;
+        border:3px solid rgba(184,178,182,.8);
+        border-radius:50%;
+        background:#989196;
+        cursor:pointer;
+    }
+    .active{
+        background:#999497;
+        border-color:#fff;
+    }
+    .btn{
+        position:absolute;
+        top:50%;
+        margin-top:-9%;
+        width:40px;
+        height:70px;
+        color:#d6d3d5;
+        font-size:36px;
+        line-height:70px;
+        text-align:center;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background:rgba(127,120,125,0.8);
+    }
+    .prev{
+        position:absolute;
+		left:0;
+        border-radius:0 5px 5px 0;	
+    }
+    .next{
+        position:absolute;
+        right:0;
+        border-radius:5px 0 0 5px;
+    }
+   .item>img{
+         width: 100%;
+         height: 100%;
+	}
+	div.st{
+	 width: 100%;
+	 
+	 margin: 20px 0;
+	 position: relative;
+	 overflow: hidden;
+	}
+	div.st-da>img,div.st-bao>img,div.st-che>img{
+		display: block;
+	   border: #ddd 2px solid;
+	   box-sizing: border-box;
+	  width: 100%;
+	}
+	div.st-da,div.st-bao,div.st-che{	  
+		  float: left;
+		  width: 45%;
+		  margin: 1% 2%;
+	}
+
+	div.jingXuan{
+		
+			}
+	div.biao{
+		width:100%;
+		height:50px;
+		position:relative;
+		background:url("../img/sbg.png");
+	}
+	div.biao>h3{
+		width:90%;
+		height:50px;
+		position:relative;
+		line-height:50px;
+		
+	}
+	div.biao>h3>span{
+		font-size: 0.75em;
+		float: right;
+	}
+	div.jingXuan-tw{
+		  width: 96%;
+		  margin: 20px auto;
+		  overflow: hidden;
+	}
+	div.jt{
+		width: 40%;
+		float: left;
+	}
+	div.jt>img{
+		width: 100%;
+	}
+	div.jw{
+		
+		float: left;
+		margin-left: 3%;
+	}
+	div.jw>p{
+		margin-top: 10%;
+		font-size: 0.75em;
+	}
+	div.jw>p>span{
+		color: #1966c2;
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+	div.qiugou>ul>li{
+		width: 90%;
+		 padding: 10px 0;
+		 line-height: 30px;
+		border-bottom:1px dashed #ddd;		
+	}
+	div.qiugou>ul>li>a{
+		line-height: 30px;
+	}
+	div.qiugou>ul>li>a>span{
+		font-size: 0.75em;
+		float: right;
+	}

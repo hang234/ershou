@@ -1,0 +1,390 @@
+.inter{
+	width: 100%;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+}
+.inter h2{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	background: #fff;
+	font-size: 22px;
+	color:#444;
+	font-weight: 500;
+	border-bottom:1px #eee solid;
+}
+.inter .lei{
+	width: 97%;
+	height: 400px;
+	background: #fff;
+}
+.inter .lei ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.inter .lei ul li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px #eee solid;
+}
+.inter .lei p{
+    color: #444;
+    font-size: 1.1em;
+    float: left;
+    margin:0 0 0 20px;
+}
+.inter .lei span{
+	display: inline-block;
+	color:#aaa;
+	float: right;
+	margin-right: 40px;
+}
+.inter .lei .one{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url("../img/carSaleRight.png") no-repeat center;
+	background-size: 100% auto;
+	float: right;
+}
+.inter .lei .se{
+	height: 30px;
+	border:0;
+	background: #fff;
+	float: right;
+	margin:1% 40px 0 0;
+}
+.inter .lei .se1{
+	height: 30px;
+	border:0;
+	background: #fff;
+	float: right;
+	margin:1% 20px 0 0;
+}
+.inter .lei .te{
+	width: 30%;
+	height: 30px;
+	color: #aaa;
+	border:0;
+	background: #fff;
+	margin:0 0 0 10px;
+}
+.pt{
+	margin-top:20px;
+}
+.inter .lei .pt p{
+	color: #444;
+    font-size: 1.1em;
+    float: left;
+    margin:0 0 0 20px;
+}
+.inter .lei .pt a{
+	display:block;
+	width: 60px;
+	height: 60px;
+	padding:5px;
+	border:1px dotted #999;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	margin:30px 20px 0 0;
+}
+.inter .lei .pt a .jia{
+	display: block;
+	float: left;
+	font-size: 30px;
+	color:#999;	
+	margin-left:35%;
+}
+.inter .lei .pt a label{
+	float: left;
+	font-size: 14px;
+	color:#999;	
+}
+.inter .lei .pt a img{
+	width: 60px;
+	height: 60px;
+	z-index: 100;
+	float: left;
+	margin-top:-20px;
+	display: none;
+}
+.shou{
+	width: 100%;
+	height:250px;
+	position: relative;
+	overflow: hidden;
+}
+.shou h2{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	background: #fff;
+	font-size: 22px;
+	color:#444;
+	font-weight: 500;
+	border-bottom:1px #eee solid;
+}
+.shou .lei2{
+	width: 97%;
+	height: 200px;
+	background: #fff;
+}
+.shou .lei2 ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.shou .lei2 ul li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px #eee solid;
+}
+.shou .lei2 p{
+    color: #444;
+    font-size: 1.1em;
+    float: left;
+    margin:0 0 0 20px;
+}
+.shou .lei2 label{
+	color:#f00;
+	font-size: 0.9em;
+	display: inline-block;
+    margin-left:10px;
+}
+.shou .lei2 span{
+	display: inline-block;
+	font-size: 1em;
+	color: #aaa;
+	margin-right: 20px;
+}
+.bao{
+	width: 70px;
+	height: 30px;
+	overflow: hidden;
+	float: left;
+	margin-left: 30%;
+}
+
+.shou .lei2 .ri{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url("../img/carSaleRight.png") no-repeat center;
+	background-size: 100% auto;
+	float: right;
+}
+.car{
+	width: 100%;
+	height:300px;
+	position: relative;
+	overflow: hidden;
+}
+.car h2{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	background: #fff;
+	font-size: 22px;
+	color:#444;
+	font-weight: 500;
+	border-bottom:1px #eee solid;
+}
+.car .lei3{
+	width: 97%;
+	height: 250px;
+	background: #fff;
+}
+.car .lei3 ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.car .lei3 ul li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px #eee solid;
+}
+.car .lei3 p{
+    color: #444;
+    font-size: 1.1em;
+    float: left;
+    margin:0 0 0 20px;
+}
+.car .lei3 .lian{
+	border:0;
+	color:#aaa;
+	width: 30%;
+	height: 35px;
+	margin-left:20px;
+}
+.car .lei3 .sex{
+	width: 20px;
+	height: 20px;
+}
+.bao2{
+	float: left;
+	margin-left: 20px;
+}
+.car .lei3 a{
+	color: #fff;
+	background: #777;
+	display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+/*弹出属性*/
+#pin{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 99;
+	background: #fff;
+	display: none;
+}
+#pin ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+#pin ul li{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	color: #444;
+	font-size: 22px;
+	border-bottom: 1px #eee solid;
+}
+#pin ul li span{
+	display: none;
+	width: 20px;
+	height: 20px;
+	background: #0f0;
+	border-radius: 10px;
+	float: right;
+	margin:7% 20% 0 0;
+}
+
+#pin a{
+	display: inline-block;
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	background: #00FF00;
+	text-align: center;
+	float: left;
+	margin:20px 0 0 40%;
+	border-radius: 5px;
+	color: #fff;
+}
+#suo{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 100;
+	background: #fff;
+	display: none;
+}
+#suo ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+#suo ul li{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	color: #444;
+	font-size: 22px;
+	border-bottom: 1px #eee solid;
+}
+#suo ul li span{
+	display: none;
+	width: 20px;
+	height: 20px;
+	background: #0f0;
+	border-radius: 10px;
+	float: right;
+	margin:7% 20% 0 0;
+}
+
+#suo a{
+	display: inline-block;
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	background: #00FF00;
+	text-align: center;
+	float: left;
+	margin:20px 0 0 40%;
+	border-radius: 5px;
+	color: #fff;
+}
+#tu,#tu1,#tu2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	bottom:-100%;
+	z-index: 100;
+	background: #fff;
+	background: #C3C7C9;
+	display: none;
+}
+#tu ul,#tu1 ul,#tu2 ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+#tu ul li,#tu1 ul li,#tu2 ul li{
+	width: 45%;
+	height: 200px;
+	float: left;
+	margin-left:13px;
+	margin-top: 20px;
+}
+#tu ul li img,#tu1 ul li img,#tu2 ul li img{
+	width: 100%;
+	height: 200px;
+	float: left;
+}
+#tu ul li span,#tu1 ul li span,#tu2 ul li span{
+	display: none;
+	width: 30px;
+	height: 30px;
+	background: #00FF00;
+	border-radius: 20px;
+	margin-top: -40px;
+	margin-left: 10px;
+	float: left;
+	z-index: 33;
+	
+}
+#tu a,#tu1 a,#tu2 a{
+	display: inline-block;
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	background: #00FF00;
+	text-align: center;
+	float: right;
+	margin:20px 10% 0 0 ;
+	border-radius: 5px;
+	color: #fff;
+}

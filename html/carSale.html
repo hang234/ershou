@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/carSale.css">
+    <title>二手市场</title>
+    <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+	 <div class="nav">
+	 	<h2>嘉润微车行</h2>
+	 	<div class="nav1-2">
+	 		<p>嘉润微车行<span>秦皇岛▼</span></p>
+	 		<a href="Secondary.html"><img src="../img/public_01.png" /></a>
+	 		<input type="text" name="search" value="" class="search"/>
+	 		
+	 	</div>
+          <div class="nav1-1">
+          	<h3>卖车手册</h3>
+          	<a href="Secondary.html"><img src="../img/public_10.png"</a>
+          </div>
+           <div class="nav2"><img src="../img/public_13.png">
+           <div class="nav3">
+               <ul> 
+                   <li style="border-top: 0px;"><a href="Secondary.html">首页</a></li>
+                    <li><a href="Buy.html">买车</a></li>
+                    <li><a href="Transfer.html">预约过户</a></li>
+                    <li><a href="#">竞价</a></li>
+                    <li><a href="carSale.html">卖车</a></li>
+                    <li><a href="Entity.html">二手车评估</a></li>
+                 </ul></div>
+           </div>
+           
+       </div>
+<!--公共部分-->
+<div class="inter">
+	<h2>车辆信息</h2>
+	<div class="lei">
+		<ul>
+			<li id="li1">
+				<p>品牌:</p>
+				<label class="one"></label>
+				<span>请选择</span>
+			</li>
+			<li id="li2">
+				<p>所在地:</p>
+				<label class="one"></label>
+				<span>请选择</span>
+			</li>
+		    <li>
+		    	<p>上牌日期:</p>
+		    	<select class="se">
+		    		<option value="选择年份">输入年份</option>
+		    		<option value="2009">2009</option>
+		    		<option value="2009">2019</option>
+		    		<option value="2009">2029</option>
+		    		<option value="2009">2039</option>
+		    	</select>
+		    	<select class="se1">
+		    		<option value="选择月份">输入月份</option>
+		    		<option value="1月-3月">1月-3月</option>
+		    		<option value="4月-6月">4月-6月</option>
+		    		<option value="7月-9月">7月-9月</option>
+		    		<option value="10月-12月">10月-12月</option>
+		    	</select>
+		    </li>
+            <li>
+            	<p>行驶里程:</p>
+            	<input type="text" name="xing" value="" class="te"/>
+            	<span>万公里</span>
+            </li>
+            <li>
+            	<p>预售价格:</p>
+            	<input type="text" name="xing" value="" class="te"/>
+            	<span>万元</span>
+            </li>
+            <li>
+		    	<p>汽车颜色:</p>
+		    	<select class="se">
+		    		<option>汽车颜色</option>
+		    		<option>基佬紫</option>
+		    		<option>死亡红</option>
+		    		<option>芭比粉</option>
+		    		<option>失血白</option>
+		    	</select>
+		    </li>
+		</ul>
+		<div class="pt" id="tp">
+			<p>上传照片:</p>
+			<a href="#" id="a1">
+				<span class="jia">+</span>
+				<br>
+				<label>正面展示</label> 
+				<img src="../img/sale1.jpg"/>
+			</a>
+			<a href="#" id="a2">
+				<span class="jia">+</span>
+				<br>
+				<label>侧面展示</label>
+				<img src="../img/sale1.jpg"/>
+			</a>
+			<a href="#" id="a3">
+				<span class="jia">+</span>
+				<br>
+				<label>内部展示</label>
+				<img src="../img/sale1.jpg"/>
+			</a>
+		</div>
+	</div>
+</div>
+<div style="width:100%;height: 10px;background: #eee;"></div>
+<div class="shou">
+	<h2>手续信息</h2>
+	<div class="lei2">
+		<ul>
+			<li>
+				<p>登记证:</p>
+				<label>*</label>
+				<span>有</span>
+				<span>补办</span>
+				<span>丢失</span>
+			</li>
+			<li>
+				<p>行驶证:</p>
+				<label>*</label>
+				<span>有</span>
+				<span>补办</span>
+				<span>丢失</span>
+			</li>
+			<li>
+				<p>购车发票:</p>
+				<label>*</label>
+				<span>有</span>
+				<span>补办</span>
+				<span>丢失</span>
+			</li>
+			<li style="border-bottom: 0;">
+				<p>上传证件照:</p>
+				<div class="bao">
+				<input type="file" accept="image/*">
+			    </div> 
+				<label class="ri"></label>
+			</li>
+		</ul>
+	</div>
+</div>
+<div style="width:100%;height: 10px;background: #eee;"></div>
+<div class="car">
+	<h2>车主信息</h2>
+	<div class="lei3">
+		<ul>
+			<li>
+				<p>联系人:</p>
+				<input type="text" name="c" class="lian" id="urse"/>
+			</li>
+			<li>
+				<p>联系方式:</p>
+				<input type="text" name="c" class="lian" id="num"/>
+			</li>
+			<li>
+				<p>卖家身份:</p>
+				<div class="bao2">
+				<input type="radio" name="sex" checked="true" class="sex"/><label>个人</label>
+				<input type="radio" name="sex"  class="sex"/><label>商家</label>
+			    </div>
+			</li>
+		</ul>
+		<a href="#" id="ti">提交</a>
+	</div>
+</div>
+<!--弹出-->
+<div id="pin">
+	<ul id="ul1">
+		<li>凯迪拉克 <span></span></li>
+		<li>玛莎拉蒂 <span></span></li>
+		<li>兰博基尼 <span></span></li>
+		<li>雷克萨斯 <span></span></li>
+	</ul>
+	<a href="javascript:endd();">完成</a>
+</div>
+<div id="suo">
+	<ul id="ul2">
+		<li>北京 <span></span></li>
+		<li>上海 <span></span></li>
+		<li>深圳 <span></span></li>
+		<li>广州 <span></span></li>
+	</ul>
+	<a href="javascript:endd();">完成</a>
+</div>
+<div id="tu">
+	<ul id="ul3">
+		<li><img src="../img/sale1.jpg"/>
+		    <span></span>
+		</li>
+		<li><img src="../img/sale2.jpg"/>
+		    <span></span>
+		</li>
+		<li><img src="../img/sale3.jpg"/>
+		    <span></span>
+		</li>
+		<li><img src="../img/sale4.jpg"/>
+		    <span></span>
+		</li>
+	</ul>
+	<a href="javascript:ends();">上传</a>
+</div>
+<div id="tu1">
+	<ul id="ul4">
+		<li><img src="../img/sale1.jpg"/>
+		    <span></span>
+		</li>
+		<li><img src="../img/sale2.jpg"/>
+		    <span></span>
+		</li>
+		<li><img src="../img/sale3.jpg"/>
+		    <span></span>
+		</li>
+		<li><img src="../img/sale4.jpg"/>
+		    <span></span>
+		</li>
+	</ul>
+	<a href="javascript:ends();">上传</a>
+</div>
+<div id="tu2">
+	<ul id="ul5">
+		<li><img src="../img/sale1.jpg"/>
+		    <span></span>
+		</li>
+		<li><img src="../img/sale2.jpg"/>
+		    <span></span>
+		</li>
+		<li><img src="../img/sale3.jpg"/>
+		    <span></span>
+		</li>
+		<li><img src="../img/sale4.jpg"/>
+		    <span></span>
+		</li>
+	</ul>
+	<a href="javascript:ends();">上传</a>
+</div>
+<!--公共部分-->      
+       <div class="footer">
+       	<p>
+       		Copyright 2015 QHD二手车版权所有<br>
+       		意见反馈
+       	</p>
+       </div>
+	
+	
+	
+	<script type="text/javascript" src="../js/carSale.js" ></script>
+</body>
+</html>
